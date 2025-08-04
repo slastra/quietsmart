@@ -26,7 +26,7 @@ class FanControlWindow(Adw.ApplicationWindow):
         self.set_resizable(True)  # Allow resizing but respect minimum
         
         # MQTT settings
-        self.mqtt_broker = "desk.local"
+        self.mqtt_broker = "hostname.local"
         self.mqtt_port = 1883
         self.mqtt_client = None
         self.connected = False
