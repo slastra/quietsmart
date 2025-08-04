@@ -17,7 +17,7 @@ class FanControlGUI:
         self.root.geometry("400x500")
         
         # MQTT settings
-        self.mqtt_broker = "desk.local"
+        self.mqtt_broker = "hostname.local"
         self.mqtt_port = 1883
         self.mqtt_client = None
         self.connected = False
