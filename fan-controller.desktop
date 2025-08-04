@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ESP32 Fan Controller
+Comment=Control ESP32 fan via MQTT with beautiful GTK4 interface
+Exec=python3 /home/shaun/.local/bin/fan_control_gtk4.py
+Icon=preferences-system
+Terminal=false
+Categories=System;Monitor;
+Keywords=fan;control;esp32;mqtt;iot;
