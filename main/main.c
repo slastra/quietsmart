@@ -31,7 +31,7 @@
 // Configuration
 #define CONFIG_WIFI_SSID            "SSID"
 #define CONFIG_WIFI_PASSWORD        "PASSWORD"
-#define CONFIG_MQTT_BROKER_URI      "mqtt://desk.local:1883"
+#define CONFIG_MQTT_BROKER_URI      "mqtt://hostname.local:1883"
 #define CONFIG_MQTT_STATUS_TOPIC    "fan/status"
 #define CONFIG_MQTT_CONTROL_TOPIC   "fan/control"
 #define CONFIG_FAN_PWM_PIN          GPIO_NUM_6
