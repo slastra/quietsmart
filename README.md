@@ -1,10 +1,10 @@
 # ESP32 Smart Fan Controller
 
-*A sophisticated PWM fan controller with environmental monitoring and beautiful real-time visualization*
+*A sophisticated PWM fan controller with environmental monitoring and real-time visualization*
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen) ![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v5.0-blue) ![Python](https://img.shields.io/badge/python-3.8+-blue) ![GTK4](https://img.shields.io/badge/GTK-4.0-orange)
 
-The **ultimate desktop fan controller** combining precision hardware control, beautiful software visualization, and environmental monitoring into one elegant system. Perfect for anyone who wants their cooling solution to be both functional and visually stunning.
+The **ultimate desktop fan controller** combining precision hardware control, software visualization, and environmental monitoring into one elegant system.
 
 ## Features
 
@@ -18,7 +18,7 @@ The **ultimate desktop fan controller** combining precision hardware control, be
 - **Robust Networking**: WiFi auto-reconnect + MQTT with JSON messaging
 - **Network Discovery**: mDNS available as `esp32-fan-controller.local`
 
-### Beautiful GTK4 GUI
+### GTK4 GUI
 - **Modern Libadwaita Design**: Native GTK4/Adwaita styling with proper theming
 - **Elegant Loading**: Centered spinner with smooth transition to content
 - **Live Dashboard**: Real-time speed, RPM, temperature (°F), and humidity display
@@ -28,7 +28,7 @@ The **ultimate desktop fan controller** combining precision hardware control, be
 - **Historical Visualization**: 
   - **Real-time Graph**: 10-minute rolling history of all 4 metrics
   - **Current Value Dots**: Color-coded dots with metric labels at graph endpoints
-  - **Theme Integration**: Beautiful card-style graph container
+  - **Theme Integration**: card-style graph container
   - **Live Updates**: Graph updates every 5 seconds with smooth rendering
 
 ## Hardware Configuration
@@ -179,7 +179,7 @@ mosquitto_sub -h broker.hivemq.com -t fan/status
 
 ## Control Methods
 
-1. **Precision Slider**: Continuous 0-100% control via beautiful GUI
+1. **Precision Slider**: Continuous 0-100% control via GUI
 2. **Physical Button**: Quick preset cycling (0%, 25%, 50%, 75%, 100%) with LED confirmation
 3. **MQTT Integration**: JSON API for automation and remote control
 4. **Network Discovery**: Access via `esp32-fan-controller.local`
@@ -204,7 +204,7 @@ quietsmart/
 
 - **Real-time Visualization**: See your fan's performance history at a glance
 - **Environmental Awareness**: Monitor temperature and humidity trends  
-- **Beautiful Interface**: Modern GTK4 design that feels like a native app
+- **Interface**: Modern GTK4 design that feels like a native app
 - **Data-Driven**: 10 minutes of rolling history with smooth animations
 - **Smart Synchronization**: All animations sync to MQTT update intervals
 - **Persistent Settings**: Remembers your preferences across power cycles
